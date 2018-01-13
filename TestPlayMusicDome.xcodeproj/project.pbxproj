@@ -15,6 +15,7 @@
 		F2A3B36B2009DA01007C8C62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A3B36A2009DA01007C8C62 /* main.m */; };
 		F2A3B3752009DA01007C8C62 /* TestPlayMusicDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A3B3742009DA01007C8C62 /* TestPlayMusicDomeTests.m */; };
 		F2A3B3802009DA01007C8C62 /* TestPlayMusicDomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A3B37F2009DA01007C8C62 /* TestPlayMusicDomeUITests.m */; };
+		F2A3B38F2009DB85007C8C62 /* PMAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A3B38D2009DB85007C8C62 /* PMAVPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F2A3B37B2009DA01007C8C62 /* TestPlayMusicDomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPlayMusicDomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A3B37F2009DA01007C8C62 /* TestPlayMusicDomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPlayMusicDomeUITests.m; sourceTree = "<group>"; };
 		F2A3B3812009DA01007C8C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A3B38D2009DB85007C8C62 /* PMAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMAVPlayer.m; sourceTree = "<group>"; };
+		F2A3B38E2009DB85007C8C62 /* PMAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMAVPlayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		F2A3B35A2009DA01007C8C62 /* TestPlayMusicDome */ = {
 			isa = PBXGroup;
 			children = (
+				F2A3B38E2009DB85007C8C62 /* PMAVPlayer.h */,
+				F2A3B38D2009DB85007C8C62 /* PMAVPlayer.m */,
 				F2A3B35B2009DA01007C8C62 /* AppDelegate.h */,
 				F2A3B35C2009DA01007C8C62 /* AppDelegate.m */,
 				F2A3B35E2009DA01007C8C62 /* ViewController.h */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A3B38F2009DB85007C8C62 /* PMAVPlayer.m in Sources */,
 				F2A3B3602009DA01007C8C62 /* ViewController.m in Sources */,
 				F2A3B36B2009DA01007C8C62 /* main.m in Sources */,
 				F2A3B35D2009DA01007C8C62 /* AppDelegate.m in Sources */,

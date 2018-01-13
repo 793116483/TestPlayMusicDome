@@ -2,7 +2,7 @@
 //  ViewController.h
 //  TestPlayMusicDome
 //
-//  Created by qujie on 2018/1/13.
+//  Created by qujie on 2018/1/2.
 //  Copyright © 2018年 linkin. All rights reserved.
 //
 
